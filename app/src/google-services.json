@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "64985444039",
+    "firebase_url": "https://melham-express-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "melham-express",
+    "storage_bucket": "melham-express.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64985444039:android:16de386a6dd054d46518e2",
+        "android_client_info": {
+          "package_name": "com.example.mcc_deliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64985444039-dr332mee57s48ip23rjljfg3p8bhqiih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0yQI2bpC3E8RiebwND23vhoacRNX0B2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64985444039-dr332mee57s48ip23rjljfg3p8bhqiih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

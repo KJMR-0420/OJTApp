@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".User.user_home_fragment"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:id="@+id/scrollView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="-16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/hometop_bg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="147dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#D3DCFA "
+                    android:contentDescription="TODO"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/background" />
+
+                <ImageView
+                    android:layout_width="77dp"
+                    android:layout_height="77dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="48dp"
+                    android:background="@drawable/profile_ellipse" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/home_logo2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="22.83dp"
+                    android:layout_marginTop="50.83dp"
+                    android:src="@drawable/rounded" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/hi_user_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="111dp"
+                        android:layout_marginTop="46dp"
+                        android:gravity="center_horizontal|top|left"
+                        android:maxLines="1"
+                        android:ellipsize="none"
+                        android:lineSpacingExtra="2sp"
+                        android:text="@string/hi_user"
+                        android:textAppearance="@style/hi_user" />
+
+                    <TextView
+                        android:id="@+id/welcome_2"
+                        android:layout_width="113dp"
+                        android:layout_height="38dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="112dp"
+                        android:layout_marginTop="93dp"
+                        android:lineSpacingExtra="1sp"
+                        android:text="@string/welcome_"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/welcome_"
+                        android:translationY="-0.61sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/bookOrder"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="80dp"
+                android:background="@drawable/round_corners"
+                android:backgroundTint="#223272"
+                android:drawableRight="@drawable/ic_baseline_add_24"
+                android:fontFamily="@font/montserrat_medium"
+                android:paddingRight="5dp"
+                android:text="Book Order"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/user_home_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="395dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                tools:visibility="visible"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="250dp">
+
+            <ImageView
+                android:id="@+id/emptyImage"
+                android:layout_width="253dp"
+                android:layout_height="205dp"
+                android:layout_gravity="center|fill_vertical"
+                android:src="@drawable/userhomebox"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/emptyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="No activity yet"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

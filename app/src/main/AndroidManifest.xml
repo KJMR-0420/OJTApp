@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mcc_deliveryapp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MCC_DeliveryApp">
+        <activity
+            android:name=".User.user_order_summary"
+            android:exported="false" />
+        <activity
+            android:name=".Rider.rider_cancel_order"
+            android:exported="false" />
+        <activity
+            android:name=".User.user_cancelled_order_details"
+            android:exported="false" />
+        <activity
+            android:name=".User.user_pending_order_details"
+            android:exported="false" />
+        <activity
+            android:name=".Rider.rider_completed_order"
+            android:exported="false" />
+        <activity
+            android:name=".User.user_completed_order_details"
+            android:exported="false" />
+        <activity
+            android:name=".User.user_ongoing_order_details"
+            android:exported="false" />
+        <activity
+            android:name=".User.user_track_rider"
+            android:exported="false" />
+        <activity
+            android:name=".Rider.rider_takeorder_map"
+            android:exported="false" />
+        <activity
+            android:name=".Rider.rider_ongoing_order"
+            android:exported="false" />
+        <activity
+            android:name=".Rider.take_order"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD5glPPR-FTV888MG4YDIXldF-SpuwR7YQ" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name=".Rider.editprofile_changePass"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Rider.editprofile_fragment"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".User.user_editprofile_changePass"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".User.user_editprofile_fragment"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Rider.riderLogin"
+            android:exported="false" />
+        <activity
+            android:name=".User.user_parceltransaction"
+            android:exported="true" />
+        <activity
+            android:name=".User.user_permission"
+            android:exported="false" />
+        <activity
+            android:name=".User.user_navigation"
+            android:exported="false" />
+        <activity
+            android:name=".Rider.rider_dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".User.user_checkrate"
+            android:exported="false" />
+        <activity
+            android:name=".Rider.RegisterRider"
+            android:exported="true" />
+        <activity
+            android:name=".User.MainUserActivity"
+            android:exported="true"
+            android:label="UserMain" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

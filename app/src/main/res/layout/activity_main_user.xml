@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".User.MainUserActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="20dp">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/icon_color"
+        android:text="Back"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_medium"
+        android:paddingTop="40dp"
+        android:paddingBottom="10dp"
+        android:text="Shipping and Track Anytime"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:fontFamily="@font/montserrat_medium"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:text="Get great experience with Melham Express"
+        android:textColor="@color/icon_color"
+        android:textSize="14sp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_gravity="center"
+        android:id="@+id/tabLayout"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:textColor="#FAFAFA"
+        android:contentDescription="tabLayout"
+        android:background="@drawable/tab_indicator"
+        app:tabIndicatorColor="@color/white"
+        android:backgroundTint="#FAFAFA"
+        app:tabGravity="fill"
+        app:tabIndicator="@drawable/tab_indicator"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicatorGravity="stretch"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/black"
+        android:layout_marginTop="5dp"/>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <androidx.viewpager2.widget.ViewPager2
+          android:id="@+id/viewPager2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+  </ScrollView>
+
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iconhomeuser"
+        android:icon="@drawable/icon_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/iconrecorduser"
+        android:icon="@drawable/icon_history"
+        android:title="@string/record" />
+
+    <item
+        android:id="@+id/iconprofileuser"
+        android:icon="@drawable/ic_round_perm_identity_24"
+        android:title="@string/profile" />
+
+
+
+</menu>

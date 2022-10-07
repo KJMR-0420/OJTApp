@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F20606</color>
+    <color name="gray">#878181</color>
+
+    <color name="app_color">#223272</color>
+    <color name="button_color1">#223272</color>
+    <color name="icon_color">#A7A9B7</color>
+    <color name="background_color">#EEEFFA</color>
+    <color name="text_details">#B4B4B4</color>
+    <color name="strokes">#0E142C</color>
+    <color name="textGray">#A7A9B7</color>
+    <color name="border">#C4c4c4</color>
+    <color name="payment_dialog">#D3DCFA</color>
+    <color name="color_background">#CBEEEE</color>
+    <color name="secondary_text">#757575</color>
+    <color name="color_divider">#BAB3B9</color>
+    <color name="color_transparent">#00FFFFFF</color>
+    <color name="opaque_appcolor">#32223272</color>
+    <color name="edit">#1C1B1F</color>
+
+
+
+</resources>

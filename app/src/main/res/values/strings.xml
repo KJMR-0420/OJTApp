@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Melham Express</string>
+
+    <string name="agreeDriverText"><u>I agree to Melham Express\' Terms &amp; Conditions and Privacy Policy</u></string>
+
+
+    <string-array name="cityRider">
+        <item>City You\'ll Drive In</item>
+        <item>Manila</item>
+        <item>Cebu</item>
+        <item>Pampanga</item>
+    </string-array>
+
+    <string-array name="ridervehicletype">
+        <item>Vehicle Type</item>
+        <item>Motorcycle</item>
+        <item>Sedan</item>
+        <item>SUV</item>
+        <item>MPV</item>
+        <item>Small Truck</item>
+    </string-array>
+
+    <string-array name="ridervehiclebrandMC">
+        <item>Brand</item>
+        <item>Yamaha</item>
+        <item>Honda</item>
+        <item>Kawasaki</item>
+        <item>Suzuki</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="ridervehiclebrandSedan">
+        <item>Brand</item>
+        <item>Honda</item>
+        <item>Toyota</item>
+        <item>Mitsubishi</item>
+        <item>Nissan</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="ridervehiclebrandSUV">
+        <item>Brand</item>
+        <item>Honda</item>
+        <item>Toyota</item>
+        <item>Mitsubishi</item>
+        <item>Nissan</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="ridervehiclebrandMPV">
+        <item>Brand</item>
+        <item>Toyota</item>
+        <item>Mitsubishi</item>
+        <item>Isuzu</item>
+        <item>Volkswagen</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="ridervehiclebrandSmallTruck">
+        <item>Brand</item>
+        <item>Toyota</item>
+        <item>Mitsubishi</item>
+        <item>Isuzu</item>
+        <item>Foton</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_user_driverfound">user_driverfound</string>
+    <string name="title_activity_user_parceltransaction">user_parceltransaction</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_parceltrans">user_parceltrans</string>
+    <string name="home">Home</string>
+    <string name="pick_up">Pick Up</string>
+    <string name="record">Record</string>
+    <string name="profile">Profile</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="welcome_">Welcome!</string>
+
+    <string name="hi_user">Hi User!</string>
+</resources>
